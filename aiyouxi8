@@ -1,0 +1,380 @@
+
+<html>
+	<head>
+		<title>Privacy Policy</title>
+		<style type="text/css">
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
+	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+th {
+   font-weight: bold;
+}
+th, td {
+   border: 1px solid #EAEAEA;
+   padding: 6px 10px;
+}
+caption, th, td {
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active { /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+	outline: 0;
+}
+a img {
+	border: 0;
+}
+embed, iframe, object {
+	max-width: 100%;
+}
+/* =GLOBAL
+----------------------------------------------- */
+body,
+button,
+input,
+select,
+textarea {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 { font-size: 42px; line-height: 1.2; }
+h2 { font-size: 38px; line-height: 1.2; }
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+h5 { font-size: 26px; line-height: 1.2; }
+h6 { font-size: 22px; line-height: 1.2; }
+hr {
+	border-color: #EAEAEA;
+	border-style: solid none none;
+	border-width: 1px 0 0;
+	height: 0;
+	margin: 30px 0;
+}
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+strong {
+	font-weight: bold;
+}
+cite, em, i {
+	font-style: italic;
+}
+pre {
+	background-color: #fff;
+	margin-bottom: 20px;
+	overflow: auto;
+	padding: 20px;
+	border: 1px solid #EAEAEA;
+}
+pre, code, kbd, var, samp, tt {
+	font-family:"Courier 10 Pitch",Courier,monospace;
+	font-size: 14px;
+	line-height: 1.4;
+	white-space: pre-wrap;
+}
+abbr, acronym, dfn {
+	border-bottom: 1px dotted #777777;
+	cursor: help;
+}
+address {
+	display: block;
+	font-style: italic;
+	margin: 0 0 15px;
+}
+ins {
+	background: #F8F8F8;
+}
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+/* =SUPERCRIPT AND SUBSCRIPT
+----------------------------------------------- */
+sup, sub {
+	font-size: 10px;
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+dl {
+	margin-bottom: 24px;
+	font-size: 20px;
+}
+dt {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+dd {
+	margin-bottom: 24px;
+}
+ul,
+ol {
+	list-style: none;
+}
+ol {
+	list-style: decimal;
+}
+li > ul,
+li > ol {
+	margin: 0 0 0 10px;
+}
+
+/* =BLOCKQUOTE
+----------------------------------------------- */
+blockquote {
+	padding: 30px 30px 20px 45px;
+	margin-bottom: 20px;
+	background-color: #289dcc;
+	color: #FFFFFF;
+	border-radius: 5px;
+}
+blockquote p {
+	font-size: 20px;
+	font-family: 'Open Sans', serif;
+	line-height: 1.4;
+	position: relative;
+	padding-top: 13px;
+	padding-left: 40px;
+}
+blockquote p:before {
+	content: "\f10d";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	color: #FFFFFF;
+	font-size: 60px;
+	position: absolute;
+	top: -27px;
+	left: -27px;
+}
+blockquote em, blockquote i, blockquote cite {
+	font-style: normal;
+}
+blockquote cite {
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	float: right;
+}
+blockquote a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* =FORMS
+----------------------------------------------- */
+input, textarea {
+ 	-webkit-border-radius: 0px;
+}
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+textarea {
+	-moz-appearance: none !important;
+	-webkit-appearance: none !important;
+	appearance: none !important;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+	padding: 1%;
+	border: 1px solid #EAEAEA;
+	line-height: 20px;
+	width: 95%;
+	margin: 0 0 30px;
+	background-color: #F8F8F8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	border: 1px solid #EAEAEA;
+}
+input.s {
+	width: 60%;
+	padding: 4px 54px 4px 10px;
+	height: 36px;
+	color: #777777;
+	background-color: #FFFFFF;
+	margin: 0;
+	border: 1px solid #EAEAEA;
+}
+input.s:focus {
+	padding-left: 10px;
+	border-color: #EAEAEA;
+	text-indent: 0;
+}
+.colormag-button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+button {
+   margin-bottom: 30px;
+   padding: 10px 20px;
+	background-color: #289dcc;
+	border: 0px;
+	transition: background-color 0.3s linear 0s;
+   -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius:3px;
+   font-size: 18px;
+   -moz-appearance: none !important;
+	-webkit-appearance: none !important;
+	appearance: none !important;
+	cursor: pointer;
+	display:inline-block;
+   color: #FFFFFF;
+}
+#search-form input[type="submit"] {
+	border-radius: 0;
+	margin-left: -8px;
+	margin-bottom: 0;
+	padding: 6px 10px 5px;
+	font-size: 18px;
+}
+.colormag-button:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:hover {
+	background-color: #33363B;
+}
+.previous a,
+.next a {
+   padding: 5px 0;
+	cursor: pointer;
+   font-size: 18px;
+}
+.previous a:hover,
+.next a:hover {
+	color: #289dcc;
+	text-decoration: underline;
+}
+input[type="reset"]:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+	-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 
+</style>
+	</head>
+	<body>
+		<div id="primary">
+		<div id="content" class="clearfix">
+			
+				
+<article id="post-15" class="post-15 page type-page status-publish hentry">
+	
+	<header class="entry-header">
+               <h1 class="entry-title">
+            Privacy Policy         </h1>
+      	</header>
+
+	<div class="entry-content clearfix">
+		<p><b>Privacy Policy</b></p>
+<p>This privacy policy sets out how AiYouXi uses and protects any information that you give AiYouXi when you use this website and mobile applications.</p>
+<p>AiYouXi is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website or applications developed by us, then you can be assured that it will only be used in accordance with this privacy statement.</p>
+<p>AiYouXi may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from 12/20/2013.</p>
+<p><b>What we collect</b><br />
+We do NOT collect any information if you download and play our games. If you write feedback to us, we will collect:<br />
+*. You email address</p>
+<p><b>What we do with the information we gather</b><br />
+We require this information to communicate with your request/feedback and provide you with a better service, and in particular for the following reasons:<br />
+*. Internal record keeping.<br />
+*. We may use the information to improve our products and services.<br />
+*. We may periodically send promotional emails about new products, special offers or other information which we think you may find interesting using the email address which you have provided.<br />
+*. From time to time, we may also use your information to contact you for market research purposes. We may contact you by email.</p>
+<p><b>Security</b><br />
+We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.</p>
+			</div>
+
+	</article>
+				
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	</body>
+</html>
