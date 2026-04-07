@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonic Lens Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy Policy for Sonic Lens, the playlist-first audio player for local, online, and subtitle-assisted listening."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="index.html" aria-label="Sonic Lens home">
+          <img class="brand__mark" src="../ui/logo.png" alt="Sonic Lens logo" />
+          <span class="brand__text">
+            <span class="brand__name">Sonic Lens</span>
+            <span class="brand__meta">Privacy Policy</span>
+          </span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="#data-we-store">Data</a>
+          <a href="#permissions">Permissions</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="policy-hero">
+        <div class="page-shell">
+          <div class="policy-hero__panel">
+            <div class="section-label">Effective date</div>
+            <h1 class="section-title">Privacy Policy for Sonic Lens</h1>
+            <p class="section-copy">
+              Last updated: April 7, 2026. This policy describes how Sonic Lens handles information
+              when you use the app on iOS or Android.
+            </p>
+            <div class="policy-meta">
+              <span class="tag">App name: Sonic Lens</span>
+              <span class="tag">Bundle ID: com.juxianyp.picktune</span>
+              <span class="tag">Account not required</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="page-shell policy-grid">
+          <article class="policy-card">
+            <h2>Overview</h2>
+            <p>
+              Sonic Lens is a playlist-first audio player for local audio, direct online audio links,
+              offline downloads, and on-device subtitle extraction for local audio. The app is designed
+              around local storage first. Most of the information it uses to function is stored on your device.
+            </p>
+            <p>
+              Sonic Lens does not require you to create an account to use its core features, and the app is not
+              built around cloud syncing of your personal library.
+            </p>
+          </article>
+
+          <article class="policy-card" id="data-we-store">
+            <h2>Information stored on your device</h2>
+            <p>Sonic Lens may store the following information locally on your device to provide app functionality:</p>
+            <ul>
+              <li>audio library records, playlists, and playlist ordering</li>
+              <li>track metadata such as title, artist, album, folder, genre, and source link where applicable</li>
+              <li>recent playback activity, continue listening state, playback queue, and playback preferences</li>
+              <li>download task records, file targets, retry state, and local file paths</li>
+              <li>subtitle documents, subtitle jobs, model state, exported subtitle references, and subtitle preferences</li>
+              <li>private space settings, PIN-related state, and privacy display preferences</li>
+              <li>theme, language, scanning, and other app settings</li>
+            </ul>
+          </article>
+
+          <article class="policy-card">
+            <h2>Information you choose to provide</h2>
+            <p>
+              You may choose to provide Sonic Lens with local audio files, selected folders, direct audio links,
+              playlist names, custom tags, subtitle exports, and other content you intentionally add to the app.
+            </p>
+            <p>
+              If you move audio into the private space, that content is still stored on your device but handled with
+              additional in-app privacy controls.
+            </p>
+          </article>
+
+          <article class="policy-card">
+            <h2>How network access is used</h2>
+            <p>Sonic Lens uses network access only when a feature needs it. Examples include:</p>
+            <ul>
+              <li>playing a direct online audio link that you provide</li>
+              <li>downloading online audio to your device when you request it</li>
+              <li>downloading subtitle models used for on-device transcription</li>
+              <li>checking update or version information when update functionality is used</li>
+            </ul>
+            <p>
+              Sonic Lens is not designed as an account-based cloud service. Core library, playback, playlist,
+              and subtitle state are not intended to depend on remote account storage.
+            </p>
+          </article>
+
+          <article class="policy-card">
+            <h2>Subtitle processing</h2>
+            <p>
+              For supported local audio, Sonic Lens can generate subtitles after you download a compatible subtitle model.
+              Based on the current app implementation, subtitle extraction for local audio is handled on device.
+            </p>
+            <p>
+              Generated subtitle content, segment timing, export files, and related subtitle state may be stored locally so you can
+              review transcripts, jump by timestamp, retry a transcription job, or export SRT and VTT files.
+            </p>
+          </article>
+
+          <article class="policy-card" id="permissions">
+            <h2>Permissions</h2>
+            <p>
+              Sonic Lens follows an action-based permission model. It does not request unrelated runtime permissions on first launch.
+              Relevant permissions or system access may be used as follows:
+            </p>
+            <ul>
+              <li><strong>File or folder access:</strong> used when you explicitly import files or choose a directory through a system picker</li>
+              <li><strong>Notifications on Android 13+:</strong> requested when playback starts so media notifications and controls can be shown</li>
+              <li><strong>Internet and network state:</strong> used for direct link playback, downloads, subtitle model downloads, and related network-dependent features</li>
+            </ul>
+            <p>
+              The app currently does not proactively request camera, microphone, contacts, photo library, or broad media-library access for its primary workflows.
+            </p>
+          </article>
+
+          <article class="policy-card">
+            <h2>Private space</h2>
+            <p>
+              Sonic Lens includes a PIN-protected private space for audio you do not want exposed in normal browsing surfaces.
+              Private items can also be masked in certain playback-facing contexts based on your settings.
+            </p>
+            <p>
+              The private space is an app-level privacy feature. You remain responsible for the overall security of your device,
+              backups, and any exported files outside the app.
+            </p>
+          </article>
+
+          <article class="policy-card">
+            <h2>Data sharing and third parties</h2>
+            <p>
+              Based on the current project configuration, Sonic Lens is not built around account syncing, ad networks, or analytics SDKs
+              for the core app experience. The app does not describe selling your personal information.
+            </p>
+            <p>
+              Some network requests may necessarily involve third-party servers that host audio you choose to play, files you choose to download,
+              subtitle models you choose to download, or platform distribution and update infrastructure.
+            </p>
+          </article>
+
+          <article class="policy-card">
+            <h2>Data retention and deletion</h2>
+            <p>
+              Because Sonic Lens primarily stores its working data on your device, retention generally depends on how long you keep the app,
+              the local files you import, and the content you choose to download or export.
+            </p>
+            <p>
+              You can remove downloads, subtitle exports, playlist items, and other library content from inside the app. Removing the app may also
+              remove locally stored app data, subject to your platform's behavior and any external backups you manage.
+            </p>
+          </article>
+
+          <article class="policy-card">
+            <h2>Children's privacy</h2>
+            <p>
+              Sonic Lens is a general audio utility and is not specifically directed to children. If you believe personal information has been provided
+              in a way that should be reviewed or removed, contact us at <a href="mailto:feng7605@gmail.com">feng7605@gmail.com</a>.
+            </p>
+          </article>
+
+          <article class="policy-card">
+            <h2>Changes to this policy</h2>
+            <p>
+              This policy may be updated as the product evolves. When that happens, the date at the top of this page will be updated to reflect the latest version.
+            </p>
+          </article>
+
+          <article class="policy-card" id="contact">
+            <h2>Contact</h2>
+            <p>
+              If you have questions about this policy, contact <a href="mailto:feng7605@gmail.com">feng7605@gmail.com</a>.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="page-shell footer-grid">
+        <div class="footer-panel footer-panel--compact">
+          <div>
+            <div class="footer__title">Sonic Lens</div>
+            <p class="footer__text">A playlist-first audio player for local, online, and subtitle-assisted listening.</p>
+          </div>
+          <p class="mini-note">This page is intended to support app distribution and product transparency.</p>
+        </div>
+        <div class="footer-panel">
+          <div class="footer__title">Related pages</div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonic Lens — Your personal audio space</title>
+    <meta
+      name="description"
+      content="Sonic Lens is a playlist-first audio player for local audio, online audio links, offline downloads, and on-device subtitle extraction."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="index.html" aria-label="Sonic Lens home">
+          <img class="brand__mark" src="../ui/logo.png" alt="Sonic Lens logo" />
+          <span class="brand__text">
+            <span class="brand__name">Sonic Lens</span>
+            <span class="brand__meta">Playlist-first audio player</span>
+          </span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#features">Features</a>
+          <a href="#privacy">Privacy</a>
+          <a href="privacy.html">Policy</a>
+          <a class="cta-link" href="#download">Get the app</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="page-shell hero__grid">
+          <div>
+            <span class="eyebrow">Local and online audio</span>
+            <h1 class="hero__title">A personal home for the audio you keep.</h1>
+            <p class="hero__lede">
+              Sonic Lens brings local files, direct audio links, playlists, downloads,
+              transcripts, and private listening into one consistent space. Import what you
+              want, play what matters, and come back to it without losing your place.
+            </p>
+            <div class="hero__actions" id="download">
+              <a class="button" href="https://apps.apple.com/us/app/sonic-lens-offline-audio/id6761324083">View on the App Store</a>
+              <a class="button--ghost" href="privacy.html">Read privacy policy</a>
+            </div>
+            <div class="hero__meta">
+              <div class="metric">
+                <strong>Listen your way</strong>
+                <span>Import files, scan folders, or play direct online audio links.</span>
+              </div>
+              <div class="metric">
+                <strong>Keep context</strong>
+                <span>Recent plays, queue, playlists, and continue listening stay aligned.</span>
+              </div>
+              <div class="metric">
+                <strong>Review later</strong>
+                <span>Generate on-device subtitles for local audio and export SRT or VTT.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-showcase" aria-hidden="true">
+            <div class="glow-ring"></div>
+            <div class="device-stack">
+              <div class="device-card device-card--tertiary">
+                <img src="../ui/screenshots/2026-04-07-app-store/iphone/en/04-play-with-ease.png" alt="" />
+              </div>
+              <div class="device-card device-card--secondary">
+                <img src="../ui/screenshots/2026-04-07-app-store/iphone/en/03-find-fast.png" alt="" />
+              </div>
+              <div class="device-card device-card--primary">
+                <img src="../ui/screenshots/2026-04-07-app-store/iphone/en/01-all-your-audio.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="page-shell">
+          <div class="section-head">
+            <div>
+              <div class="section-label">Core experience</div>
+              <h2 class="section-title">Built for listening that lasts longer than one tap.</h2>
+            </div>
+            <p class="section-copy">
+              Sonic Lens is not a streaming catalog. It is the place where your own audio,
+              saved links, playlists, and transcripts stay organized over time.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-card__index">01 — Library</div>
+              <h3>Keep local and linked audio together</h3>
+              <p>
+                Import local files, scan directories, add direct audio URLs, and manage songs,
+                artists, albums, folders, genres, downloads, and playlists in one library.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-card__index">02 — Playback</div>
+              <h3>Stay in one playback system</h3>
+              <p>
+                Queue management, playback speed, playback modes, sleep timer, recent plays,
+                and continue listening all work together so the app remembers your context.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-card__index">03 — Subtitles</div>
+              <h3>Turn local audio into text on device</h3>
+              <p>
+                Download a subtitle model, transcribe local audio on device, review the full
+                transcript, jump by timestamp, and export subtitles as SRT or VTT.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="page-shell value-grid">
+          <div class="value-column">
+            <article class="value-block value-block--accent">
+              <h3>Playlist-first by design</h3>
+              <p>
+                Sonic Lens treats playlists as the stable structure behind playback. What you
+                play, save, download, and return to stays inside one consistent listening flow,
+                instead of becoming scattered one-off items.
+              </p>
+            </article>
+            <article class="value-block">
+              <h3>Listen now, decide later</h3>
+              <p>
+                Found a direct audio link? Start listening immediately, then decide whether it
+                belongs in your offline library. Downloads and local saves stay connected to the
+                same track identity when possible.
+              </p>
+            </article>
+          </div>
+          <div class="value-column">
+            <article class="value-block">
+              <h3>Private audio stays private</h3>
+              <p>
+                Sensitive content can be moved into a PIN-protected private space. Hidden content
+                can stay out of normal browsing surfaces and can be masked in system-facing media
+                displays.
+              </p>
+            </article>
+            <article class="value-block">
+              <h3>Designed for collected audio</h3>
+              <p>
+                Podcasts, interviews, voice notes, courses, archive recordings, and personal audio
+                favorites all fit naturally because the app is built around keeping and revisiting
+                what you listen to.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="page-shell">
+          <div class="section-head">
+            <div>
+              <div class="section-label">Product surfaces</div>
+              <h2 class="section-title">A focused system across library, player, and downloads.</h2>
+            </div>
+            <p class="section-copy">
+              The app keeps the same structure across import, playback, offline saving, and
+              transcript review, so you always know where a track belongs and how to get back to it.
+            </p>
+          </div>
+
+          <div class="screenshot-rail">
+            <article class="screenshot-card">
+              <img src="../ui/screenshots/2026-04-07-app-store/iphone/en/02-import-audio.png" alt="Sonic Lens import and downloads screen" />
+              <h3>Import and save</h3>
+              <p>Bring in files, folders, and direct links, then save what you want for offline playback.</p>
+            </article>
+            <article class="screenshot-card">
+              <img src="../ui/screenshots/2026-04-07-app-store/iphone/en/03-find-fast.png" alt="Sonic Lens library screen" />
+              <h3>Find fast</h3>
+              <p>Browse by song, album, artist, folder, genre, or playlist without losing track of what matters.</p>
+            </article>
+            <article class="screenshot-card">
+              <img src="../ui/screenshots/2026-04-07-app-store/iphone/en/05-pick-up-where-left-off.png" alt="Sonic Lens continue listening screen" />
+              <h3>Return easily</h3>
+              <p>Use recent plays and continue listening to pick up where you stopped.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="privacy">
+        <div class="page-shell">
+          <div class="section-head">
+            <div>
+              <div class="section-label">Privacy</div>
+              <h2 class="section-title">Your library is built around on-device storage first.</h2>
+            </div>
+            <p class="section-copy">
+              Sonic Lens does not require an account to use the core app. Audio metadata, playlists,
+              playback state, downloads, subtitle records, and app preferences are primarily stored on your device.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-card__index">On-device data</div>
+              <h3>Library and playback state stay local</h3>
+              <p>
+                The app stores library records, playlists, recent activity, subtitle records,
+                privacy settings, and playback preferences on your device using local app storage.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-card__index">Network usage</div>
+              <h3>Only when a feature needs it</h3>
+              <p>
+                Network access is used for direct audio links, downloads, subtitle model downloads,
+                and version or update checks. The app does not require cloud sync for its core behavior.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-card__index">Subtitle extraction</div>
+              <h3>Processed on device for local audio</h3>
+              <p>
+                After you download a supported subtitle model, transcription for local audio is handled on device.
+                Export remains under your control.
+              </p>
+            </article>
+          </div>
+
+          <div style="margin-top: 20px;">
+            <a class="button--ghost" href="privacy.html">Read the full privacy policy</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="page-shell footer-grid">
+        <div class="footer-panel footer-panel--compact">
+          <div>
+            <div class="footer__title">Sonic Lens</div>
+            <p class="footer__text">
+              A playlist-first audio player for local, online, and subtitle-assisted listening.
+            </p>
+          </div>
+          <p class="mini-note">Bundle ID: <code>com.juxianyp.picktune</code></p>
+        </div>
+        <div class="footer-panel">
+          <div class="footer__title">Links</div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </div>
+          <p class="mini-note" style="margin-top: 20px;">
+            Support: <a href="mailto:feng7605@gmail.com">feng7605@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
